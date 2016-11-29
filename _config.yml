@@ -1,0 +1,21 @@
+# Site settings
+title: Jenna Blair Mandel
+header-img: img/home-bg.png
+email: jenna.b.mandel@gmail.com
+copyright_name: jblair87
+description: > # this means to ignore newlines until "baseurl:"
+  A Girl's Adventures in Code 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  jblair87
+learn_profile: jblair87
+email_username: jenna.b.mandel@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
