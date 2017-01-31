@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Boolean Operators in Ruby"
-date:   2017-01-31 03:45:07 +0000
+date:   2017-01-30 22:45:08 -0500
 ---
 
 
 In Ruby, there are two boolean values: true and false.
 
 **Syntax**
+
 ```
 true
 => true
@@ -41,6 +42,7 @@ For example:
 
 
 **Syntax**
+
 ```
 // returns true if both boolean1 and boolean2 are true
 boolean1 && boolean2
@@ -52,9 +54,11 @@ boolean1 or boolean2
 ```
 
 #### Comparison Operators
+
 Comparison operators are used to test the relationship between two objects. The equality (==) and inequality (!=) operators can be used on almost any type of value where the other operators are used for numeric comparisons.
 
 **Syntax**
+
 ```
 x == y // returns true if two things are equal
 x != y // returns true if two things are not equal
