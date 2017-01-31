@@ -14,25 +14,25 @@ true => true
 false => false
 ```
 
-### Logical Operators
+## Logical Operators
 
 Logical operators are used to compare to boolean values. 
 Ruby has three operators to compare boolean values:
 
 * ! which represents "NOT",
 * && which represents "AND"
-* || which represents "OR"
+* "||" which represents "OR"
 
 For an && ("and") to evaluate to true, both values of either side of the symbol must evaluate to true. 
 
 * true && true #=> true
 * true && false #=> false
 
-For an || ("or") to evaluate to true, only one value on either side of the symbol must evaluate to true. 
+For an "or" to evaluate to true, only one value on either side of the symbol must evaluate to true. 
 
 For example:
 
-* false || true #=> true
+* false "||" true #=> true
 
 Finally, a ! ("not") reverses the logical state of its operand: if a condition is true, then ! will make it false; if it is false, then ! will make it true. 
 
@@ -55,7 +55,7 @@ boolean1 || boolean2
 boolean1 or boolean2
 ```
 
-### Comparison Operators
+## Comparison Operators
 
 Comparison operators are used to test the relationship between two objects. The equality (==) and inequality (!=) operators can be used on almost any type of value where the other operators are used for numeric comparisons.
 
