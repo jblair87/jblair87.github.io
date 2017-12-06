@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building with Sinatra"
-date:       2017-12-06 06:42:51 +0000
+date:       2017-12-06 01:42:51 -0500
 permalink:  building_with_sinatra
 ---
 
@@ -11,6 +11,6 @@ I definitely dedicated way too much time to this project as I just kept changing
 
 I look forward to implementing more in the future. 
 
-View the full project at https://github.com/jblair87/shopping-list-sinatra-application 
+[View the full project](https://github.com/jblair87/shopping-list-sinatra-application)
 
 
