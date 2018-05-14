@@ -2,6 +2,7 @@
 title: Jenna Blair Mandel
 header-img: img/home-bg.png
 email: jenna.b.mandel@gmail.com
+author: Jenna Mandel
 copyright_name: jblair87
 description: > # this means to ignore newlines until "baseurl:"
   A Girl's Adventures in Code 
@@ -19,5 +20,3 @@ paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
-
-theme: jekyll-theme-clean-blog
