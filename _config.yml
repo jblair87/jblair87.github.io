@@ -5,7 +5,7 @@ email: jenna.b.mandel@gmail.com
 author: Jenna Mandel
 copyright_name: jblair87
 description: > # this means to ignore newlines until "baseurl:"
-  A Girl's Adventures in Code
+
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username:
 github_username:  jblair87
