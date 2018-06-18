@@ -5,9 +5,9 @@ email: jenna.b.mandel@gmail.com
 author: Jenna Mandel
 copyright_name: jblair87
 description: > # this means to ignore newlines until "baseurl:"
-  A Girl's Adventures in Code 
+  A Girl's Adventures in Code
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username:
 github_username:  jblair87
 learn_profile: jblair87
 email_username: jenna.b.mandel@gmail.com
@@ -17,6 +17,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
+paginate_path:     "/posts/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
