@@ -3,12 +3,7 @@ layout: default
 ---
 
 <!-- Page Header -->
-{% if page.background %}
-<header class="intro-header" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
-  <header class="intro-header">
-    {% endif %}
-
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -29,7 +24,8 @@ layout: default
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			{{ content }}
 
-{% for post in paginator.posts %}
+      {% for post in paginator.posts %}
+
 <div class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
         <h2 class="post-title">            {{ post.title }}
@@ -40,8 +36,7 @@ layout: default
         </h3>
         {% endif %}
     </a>
-                <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-    <p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+<p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
 {% endfor %}
