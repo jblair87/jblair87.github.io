@@ -434,3 +434,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
