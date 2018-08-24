@@ -438,3 +438,7 @@ body {
 .portfolio-item {
     margin-bottom: 25px;
 }
+
+  .portfolio-item > h3 {
+    font-size: 20px;
+  }
