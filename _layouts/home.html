@@ -20,18 +20,19 @@ layout: default
 
 <!-- Main Content -->
 <div class="container">
+
+
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			{{ content }}
-      <h2>Posts </h2>
-      {% for post in site.posts limit : 2 %}
+      <!--{% for post in site.posts limit : 2 %}
       <div class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-              <h3 class="post-title">            {{ post.title }}  </h3>
+              <h2 class="post-title">            {{ post.title }}  </h2>
                 {% if post.subtitle %}
-              <h4 class="post-subtitle">  {{ post.subtitle }}    </h4>
+              <h3 class="post-subtitle">  {{ post.subtitle }}    </h3>
               {% else %}
-                <h4 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h4>
+                <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
               {% endif %}
           </a>
           <p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
@@ -39,10 +40,9 @@ layout: default
       <hr>
       {% endfor %}
 
-<!-- Pager -->
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
-        </div>
+        </div>-->
 
 		</div>
 	</div>
