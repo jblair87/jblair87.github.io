@@ -265,6 +265,7 @@ hr.small {
 }
 footer {
   padding: 50px 0 65px;
+  max-height: 200px;
 }
 footer .list-inline {
   margin: 0;
