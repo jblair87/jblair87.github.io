@@ -460,6 +460,12 @@ body {
   color: #ffffff;
 }
 
+.list-group {
+  padding-left: 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 .list-group-item {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
