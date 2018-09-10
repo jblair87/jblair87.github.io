@@ -265,7 +265,7 @@ hr.small {
 }
 footer {
   padding: 50px 0 65px;
-  
+
   bottom: 0;
   left: 0;
   right:0;
@@ -458,4 +458,8 @@ body {
 
 .text-white {
   color: #ffffff;
+}
+
+.list-group-item {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
