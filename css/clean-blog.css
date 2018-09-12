@@ -485,11 +485,11 @@ body {
   margin-bottom: 0;}
 }
 
-
+.skillset {.margin-top: 15px;}
 
  .skillset .level-title  {
   color: #111111;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    margin-top: 0;
 }
