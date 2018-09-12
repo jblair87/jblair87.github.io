@@ -3,7 +3,7 @@ title: Jenna Blair Mandel
 email: jenna.b.mandel@gmail.com
 author: Jenna Mandel
 copyright_name: jblair87
-description: Front-End Development / User Experience / Responsive Design
+description:  #Front-End Development / User Experience / Responsive Design
 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username:
@@ -19,4 +19,4 @@ paginate: 5
 paginate_path:     "/posts/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed]

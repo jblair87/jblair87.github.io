@@ -65,8 +65,7 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background: transparent;
-    border-bottom: 1px solid transparent;
+    background: #111111;
   }
   .navbar-custom .navbar-brand {
     color: white;
@@ -135,7 +134,6 @@ hr.small {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #0085a1;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -147,13 +145,15 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: white;
+  color: #111;
 }
+
+
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 .intro-header .site-heading,
@@ -243,11 +243,7 @@ hr.small {
   color: #0085a1;
   text-decoration: underline;
 }
-@media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
-    font-size: 36px;
-  }
-}
+
 .section-heading {
   font-size: 36px;
   margin-top: 60px;
@@ -504,4 +500,10 @@ body {
  .skillset .level-bar-inner {
   height: 20px;
   background: #337ab7;
+}
+
+.skillset > h2  {
+  font-size: 20px;
+  margin: 20px 0 30px;
+  color: #111;
 }
