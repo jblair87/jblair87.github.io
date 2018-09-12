@@ -468,3 +468,40 @@ body {
 .list-group-item {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+
+ .skillset .item {
+  margin-bottom: 15px;
+   overflow: hidden;
+}
+
+
+@media only screen and (min-width: 768px){
+  .skillset .level-title
+   {
+    display: inline-block;
+    float: left;
+    width: 30%;
+  margin-bottom: 0;}
+}
+
+
+
+ .skillset .level-title  {
+  color: #111111;
+  font-size: 14px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   margin-top: 0;
+}
+
+ .skillset .level-bar {
+  height: 20px;
+  background: #f5f5f5;
+   display: inline-block;
+   width: 70%;
+}
+
+ .skillset .level-bar-inner {
+  height: 20px;
+  background: #337ab7;
+}
