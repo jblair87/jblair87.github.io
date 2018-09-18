@@ -148,14 +148,6 @@ hr.small {
   color: #111;
 }
 
-
-@media only screen and (min-width: 768px) {
-  .intro-header .site-heading,
-  .intro-header .post-heading,
-  .intro-header .page-heading {
-    padding: 100px 0;
-  }
-}
 .intro-header .site-heading,
 .intro-header .page-heading {
   text-align: center;
@@ -173,12 +165,7 @@ hr.small {
   font-weight: 300;
   margin: 10px 0 0;
 }
-@media only screen and (min-width: 768px) {
-  .intro-header .site-heading h1,
-  .intro-header .page-heading h1 {
-    font-size: 70px;
-  }
-}
+
 .intro-header .post-heading h1 {
   font-size: 35px;
 }
