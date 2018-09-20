@@ -43,7 +43,7 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: white;
+  border-color: #404040;
 }
 .navbar-custom {
   background: white;
@@ -182,12 +182,14 @@ hr.small {
 .caption {
   text-align: center;
   font-size: 14px;
-  padding: 10px;
-  font-style: italic;
+  padding: 15px;
   margin: 0;
   display: block;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
 }
 footer {
   padding: 40px 0 20px;
@@ -367,18 +369,54 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.portfolio-item {
-    margin-bottom: 25px;
-    text-align: center;
+.portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
-  .portfolio-item > h3 {
+.portfolio-link >  a, a:active, a:active, a:focus, a:hover {
+    color: #337AB7;
+    outline: 0;
+}
+
+.portfolio-item .portfolio-link .caption {
+    background: #337AB7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+ .portfolio-item .portfolio-link .caption:hover {
+  opacity: .9;
+}
+
+
+
+.portfolio-item .portfolio-link .caption .caption-content {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    top: 30%;
+    margin-top: -10px;
+    color: #fff;
+
+}
+  .portfolio-item  > h3 {
     font-size: 20px;
+    font-family: 'Lora', 'Times New Roman', serif;
   }
 
-  .portfolio-item > p {
+  .portfolio-item .caption .caption-content > p {
     font-style: italic;
+    margin-top: 10px;
   }
 
 .text-white {
