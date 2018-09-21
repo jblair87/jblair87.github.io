@@ -473,8 +473,8 @@ body {
 }
 
 .skillset > h2  {
-  font-size: 20px;
-  margin: 20px 0 30px;
+  font-size: 30px;
+  margin: 40px 0 30px;
   color: #111;
 }
 
@@ -522,4 +522,24 @@ body {
   .intro-header .post-heading h1 {
     font-size: 50px;
   }
+}
+
+
+
+.dev-icons {
+    font-size: 5.5rem;
+
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
 }
