@@ -1,7 +1,7 @@
 # Site settings
-title: Jenna Blair Mandel
-email: jenna.b.mandel@gmail.com
-author: Jenna Mandel
+title: Jenna Blair London
+email: jennablairlondon@gmail.com
+author: Jenna London
 copyright_name: jblair87
 description:  #Front-End Development / User Experience / Responsive Design
 
@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username:
 github_username:  jblair87
 learn_profile: jblair87
-email_username: jenna.b.mandel@gmail.com
+email_username: : jennablairlondon@gmail.com
 
 # Build settings
 markdown: kramdown
