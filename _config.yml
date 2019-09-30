@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username:
 github_username:  jblair87
 learn_profile: jblair87
-email_username: : jennablairlondon@gmail.com
+email_username:  jennablairlondon@gmail.com
 
 # Build settings
 markdown: kramdown
