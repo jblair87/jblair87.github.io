@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,h6 {
 ul {
   line-height: 1.5;
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
       font-weight: 400;
         list-style-type: none;
         padding-left:0;
@@ -62,9 +62,9 @@ ul {
 
 
 ul > li, li, ul li {
-  line-height: 1.5;
+  line-height: 1.8;
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
       font-weight: 400;
 
 }
