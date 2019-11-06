@@ -22,7 +22,7 @@ p {
   line-height: 1.5;
       font-family: "Esteban", Georgia, "Times New Roman", serif;
   margin: 30px 0;
-    font-size: 16px;
+    font-size: 18px;
       font-weight: 400;
 
 }
@@ -41,23 +41,21 @@ p a {
 
 h1,h2,h3,h4,h5,h6 {
    
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 
 h1 {
   
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  font-size: 50px;
-  text-transform: uppercase;
-  line-height: 1.2em;
+  
 }
 
 
 ul {
   line-height: 1.5;
         font-family: "Esteban", Georgia, "Times New Roman", serif;
-    font-size: 16px;
+    font-size: 18px;
       font-weight: 400;
         list-style-type: none;
         padding-left:0;
@@ -70,7 +68,7 @@ ul {
 ul > li, li, ul li {
   line-height: 1.8;
         font-family: "Esteban", Georgia, "Times New Roman", serif;
-    font-size: 16px;
+    font-size: 18px;
       font-weight: 400;
 
 }
@@ -107,15 +105,17 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 700;
 }
 .navbar-custom .nav li a {
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+ text-transform: uppercase;
+ 
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -209,20 +209,19 @@ hr.small {
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
-  font-weight: 300;
   margin-bottom: 10px; 
   font-family: "Esteban", Georgia, "Times New Roman", serif;
 }
 .post-preview > .post-meta {
   color: #868e96;
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
   margin-top: 0;
   text-align: left;
 }
 .post-heading span.meta 
 {       font-family: "Esteban", Georgia, "Times New Roman", serif;
-  font-size: 16px;
+  font-size: 18px;
 
 }
 
@@ -238,7 +237,7 @@ hr.small {
 }
 
 .section-heading {
-  font-size: 39.06px;
+  font-size: 20px;
   margin-top: 60px;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
@@ -254,7 +253,7 @@ hr.small {
     bottom: 0;
     width: 100%;
     height: 50px;
-    margin-top: 60px;
+    margin-top: 100px;
     position: absolute;
   }
 
@@ -269,7 +268,7 @@ padding-bottom:10px;
 
 
 footer .copyright {
-  font-size: 16px;
+  font-size: 18px;
 float: right;
   margin-bottom: 10px ;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -278,7 +277,7 @@ float: right;
 }
 
 footer .copyright-small {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   margin-bottom: 10px ;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -286,7 +285,7 @@ footer .copyright-small {
 }
 
 .floating-label-form-group {
-  font-size: 14px;
+  font-size: 18px;
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
@@ -337,21 +336,21 @@ form .row:first-child .floating-label-form-group {
 }
 
 .floating-label-form-group label {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
+    font-family: 'Montserrat',  Helvetica, Arial, sans-serif;
+  font-size: 18px;
 
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 1px;
-  border-radius: 0;
+  border-radius: 4;
   padding: 10px 20px;
 }
 .btn-lg {
-  font-size: 16px;
+  font-size: 18px;
   padding: 25px 35px;
 }
 .btn-default:hover,
@@ -367,8 +366,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > span {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 700;
   letter-spacing: 1px;
   padding: 10px 5px;
   background-color: white;
@@ -377,7 +376,7 @@ form .row:first-child .floating-label-form-group {
 @media only screen and (min-width: 768px) {
   .pager li > a,
   .pager li > span {
-    font-size: 14px;
+    font-size: 18px;
     padding: 15px 25px;
   }
 }
@@ -546,6 +545,7 @@ font-family: "Montserrat", Helvetica, Arial, sans-serif;
   cursor: pointer;
   transition: all 0.1s;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
+ font-weight:400;
 
 }
 
@@ -598,7 +598,7 @@ font-family: "Montserrat", Helvetica, Arial, sans-serif;
 
  .skillset .level-title  {
   color: #111111;
-  font-size: 16px;
+  font-size: 18px;
   
    margin-top: 0;
 }
@@ -611,7 +611,7 @@ font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .skillset > h2  {
-  font-size: 30px;
+  font-size: 20px;
   margin: 40px 0 30px;
   color: #111;
 }
