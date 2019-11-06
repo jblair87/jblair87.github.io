@@ -4,6 +4,9 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+@import url(http://fonts.googleapis.com/css?family=Esteban);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -19,10 +22,23 @@ p a {
 
 
 h1,h2,h3,h4,h5,h6 {
-    font-weight: 800;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
+h1{
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+
+h2 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+}
 
 a {
   color: #404040;
@@ -52,7 +68,7 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -163,18 +179,22 @@ hr.small {
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 50px;  
+  text-transform: uppercase;
+  line-height: 1.2em;
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.05em;
+  font-weight: 700;
   margin: 10px 0 0;
 }
-@media only screen and (min-width: 768px) {
+
+/*@media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
@@ -183,16 +203,18 @@ hr.small {
 .intro-header .post-heading h1 {
   font-size: 35px;
 }
+*/
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
   line-height: 1.1;
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 24px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.05em;
+  font-size: 20px;
   margin: 10px 0 30px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .intro-header .post-heading .meta {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -203,14 +225,7 @@ hr.small {
 .intro-header .post-heading .meta a {
   color: white;
 }
-@media only screen and (min-width: 768px) {
-  .intro-header .post-heading h1 {
-    font-size: 55px;
-  }
-  .intro-header .post-heading .subheading {
-    font-size: 30px;
-  }
-}
+
 .post-preview > a {
   color: #404040;
 }
@@ -220,7 +235,7 @@ hr.small {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -327,7 +342,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -350,7 +365,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
