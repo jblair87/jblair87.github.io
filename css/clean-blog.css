@@ -44,6 +44,16 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+
+h1 {
+  
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+
 ul {
   line-height: 1.5;
         font-family: "Esteban", Georgia, "Times New Roman", serif;
@@ -97,7 +107,7 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -180,7 +190,7 @@ hr.small {
   margin-top: 0;
    margin: 0 0 40px;
    padding: 20px 0;
-   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .post-preview > a {
@@ -195,8 +205,7 @@ hr.small {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
-     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+     font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
@@ -231,8 +240,7 @@ hr.small {
 .section-heading {
   font-size: 39.06px;
   margin-top: 60px;
-  font-weight: 800;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .caption {
   text-align: center;
@@ -264,7 +272,7 @@ footer .copyright {
   font-size: 16px;
 float: right;
   margin-bottom: 10px ;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color:#111;
   font-weight:400;
 }
@@ -273,7 +281,7 @@ footer .copyright-small {
   font-size: 16px;
   text-align: center;
   margin-bottom: 10px ;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color:#111;
 }
 
@@ -357,7 +365,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -496,7 +504,7 @@ margin-top: 10px;
 
  .portfolio-item .caption .caption-content > h3 {
     font-size: 20px;
-        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-family: "Montserrat", Helvetica, Arial, sans-serif;
   }
   .portfolio-item .caption .caption-content > p {
     margin-top: 10px;
@@ -507,12 +515,12 @@ margin-top: 10px;
 
 
 .label .label-default {
-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .label {
 margin-right: 5px;
-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: "Montserrat", Helvetica, Arial, sans-serif;
 
 }
 .filters {
@@ -537,7 +545,7 @@ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: normal;
   cursor: pointer;
   transition: all 0.1s;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 
 }
 
@@ -560,7 +568,7 @@ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .list-group-item {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 
@@ -617,8 +625,8 @@ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
  .intro-header .page-heading h1{
     padding-top: 50px;
-      font-size: 48.83px;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 50px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 
 }
 
@@ -627,20 +635,20 @@ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 .intro-header .site-heading h1,
  .intro-header .post-heading h1 {
   padding-top: 20px;
-  font-size: 48.83px;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 
 }
 
 .intro-header .site-heading .site-subheading,
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 31.25px;
-  line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
   margin: 10px 0 0;
+ font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  font-weight: 700;
 }
 .intro-header .post-heading .post-subheading {
   margin-bottom: 20px;
