@@ -7,7 +7,7 @@
  html {
    position: relative;
    min-height: 100%;
-       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+       
 
  }
 
@@ -16,15 +16,11 @@
  }
 
 body {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #111111;
-  margin-bottom: 50px;
+    color: #111;
 }
-
 p {
   line-height: 1.5;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: "Esteban", Georgia, "Times New Roman", serif;
   margin: 30px 0;
     font-size: 16px;
       font-weight: 400;
@@ -33,7 +29,7 @@ p {
 
 p .lead {
   line-height: 1.5;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: "Esteban", Georgia, "Times New Roman", serif;
   margin: 30px 0;
     font-size: 20px;
       font-weight: 400;
@@ -44,13 +40,13 @@ p a {
 
 
 h1,h2,h3,h4,h5,h6 {
-    font-weight: 800;
+   
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 ul {
   line-height: 1.5;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-family: "Esteban", Georgia, "Times New Roman", serif;
     font-size: 16px;
       font-weight: 400;
         list-style-type: none;
@@ -63,7 +59,7 @@ ul {
 
 ul > li, li, ul li {
   line-height: 1.8;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-family: "Esteban", Georgia, "Times New Roman", serif;
     font-size: 16px;
       font-weight: 400;
 
@@ -205,9 +201,8 @@ hr.small {
 .post-preview > a > .post-subtitle {
   margin: 0;
   font-weight: 300;
-  margin-bottom: 10px;
-     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+  margin-bottom: 10px; 
+  font-family: "Esteban", Georgia, "Times New Roman", serif;
 }
 .post-preview > .post-meta {
   color: #868e96;
@@ -217,7 +212,7 @@ hr.small {
   text-align: left;
 }
 .post-heading span.meta 
-{     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+{       font-family: "Esteban", Georgia, "Times New Roman", serif;
   font-size: 16px;
 
 }
@@ -505,7 +500,7 @@ margin-top: 10px;
   }
   .portfolio-item .caption .caption-content > p {
     margin-top: 10px;
-        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          font-family: "Esteban", Georgia, "Times New Roman", serif;
         font-size: 16px;
 
   }
@@ -596,7 +591,7 @@ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
  .skillset .level-title  {
   color: #111111;
   font-size: 16px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
    margin-top: 0;
 }
 
