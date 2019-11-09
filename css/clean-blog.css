@@ -124,10 +124,8 @@ hr.small {
   z-index: 3;
    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
-.navbar-custom .navbar-brand {
-  font-weight: 400;
-}
-.navbar-custom .nav li a {
+
+.navbar-custom .nav li a,  .navbar-custom .navbar-brand {
   font-size: 18px;
   font-weight: 400;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -238,7 +236,7 @@ hr.small {
 }
 .post-heading span.meta 
 {       font-family: "Esteban", Georgia, "Times New Roman", serif;
-  font-size: 18px;
+  font-size: 20px;
 
 }
 
