@@ -217,12 +217,13 @@ hr.small {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
+  font-size:20px;
   margin-top: 30px;
   margin-bottom: 10px;
      font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .post-preview > a > .post-subtitle {
+ font-size:20px;
   margin: 0;
   margin-bottom: 10px; 
   font-family: "Esteban", Georgia, "Times New Roman", serif;
@@ -302,7 +303,7 @@ footer .copyright-small {
 }
 
 .floating-label-form-group {
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
@@ -316,7 +317,7 @@ footer .copyright-small {
   padding-left: 0;
   border: none;
   border-radius: 0;
-  font-size: 1em;
+  font-size: 20px;
   background: none;
   box-shadow: none !important;
   resize: none;
@@ -327,7 +328,7 @@ footer .copyright-small {
   position: relative;
   top: 2em;
   margin: 0;
-  font-size: 0.85em;
+  font-size: 20px;
   line-height: 1.764705882em;
   vertical-align: middle;
   vertical-align: baseline;
@@ -354,10 +355,10 @@ form .row:first-child .floating-label-form-group {
 
 .floating-label-form-group label {
     font-family: 'Montserrat',  Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 
 }
-.btn {
+.btn, .btn-primary {
    font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
