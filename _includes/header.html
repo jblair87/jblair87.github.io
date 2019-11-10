@@ -13,7 +13,7 @@
                      {% endif %}
                   {% endif %}
                     {% if include.type == "post" %}
-                    <span class="meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username}}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">{{ page.date | date: "%B %-d, %Y" }}</span>
                     {% endif %}
                     {% if include.type == "site" %}
                     <hr class="small">
