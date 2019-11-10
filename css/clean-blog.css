@@ -226,6 +226,7 @@ hr.small {
   margin: 0;
   margin-bottom: 10px; 
   font-family: "Esteban", Georgia, "Times New Roman", serif;
+ 
 }
 .post-preview > .post-meta {
   color: #868e96;
@@ -233,6 +234,7 @@ hr.small {
   font-style: italic;
   margin-top: 0;
   text-align: left;
+   font-family: "Esteban", Georgia, "Times New Roman", serif;
 }
 .post-heading span.meta 
 {       font-family: "Esteban", Georgia, "Times New Roman", serif;
@@ -314,7 +316,7 @@ footer .copyright-small {
   padding-left: 0;
   border: none;
   border-radius: 0;
-  font-size: 1.5em;
+  font-size: 1em;
   background: none;
   box-shadow: none !important;
   resize: none;
