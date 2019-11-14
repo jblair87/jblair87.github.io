@@ -3,16 +3,19 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          	<div class="page-heading">
-          	<h1>{{ site.title }}</h1>
-          	{% if site.description %}
-           	 <span class="subheading">{{ site.description }}</span>
-          	{% endif %}
+        <div class="row">  
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="page-heading text-center">
+
+          	<h1>Jenna Blair Mandel</h1>
+            <hr class="small">
+
+            <span class="page-subheading">Front-End Developer / UI Designer
+            </span>
       		 </div>
+
             </div>
         </div>
     </div>
@@ -20,11 +23,18 @@ layout: default
 
 <!-- Main Content -->
 <div class="container">
+
+
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			{{ content }}
 
-      {% for post in site.posts limit : 2 %}
+ 
+
+    <!--<h1 class="uppercase">Blog</h1>
+
+    {% for post in site.posts limit : 2 %}
+
       <div class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
               <h2 class="post-title">            {{ post.title }}  </h2>
@@ -34,16 +44,14 @@ layout: default
                 <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
               {% endif %}
           </a>
-          <p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+          <p class="post-meta">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
       </div>
-      <hr>
       {% endfor %}
 
-<!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts</a>
         </div>
-
+-->
 		</div>
 	</div>
 </div>

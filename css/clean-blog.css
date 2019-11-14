@@ -6,16 +6,49 @@
 
 @import url(http://fonts.googleapis.com/css?family=Esteban);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+ html {
+   position: relative;
+   min-height: 100%;
+       
+
+ }
+
+ body > .container {
+   padding-bottom: 20px;
+ }
+
+html {font-size: 18px;}
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
-  color: #404040;
-}
-p {
+  font-family: 'Esteban', serif;
+  font-weight: 400;
   line-height: 1.5;
-  margin: 30px 0;
+  color: #111;
 }
+
+p {margin-bottom: 1.25em; font-size:18px;}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052em;
+}
+
+h2 {font-size: 2.441em;}
+
+h3 {font-size: 1.953em;}
+
+h4 {font-size: 1.563em;}
+
+h5 {font-size: 1.25em;}
+
+
 p a {
   text-decoration: underline;
 }
@@ -38,10 +71,41 @@ h2 {
   font-size: 20px;
   letter-spacing: -0.05em;
   font-weight: 700;
+   
+ font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+  
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  
+}
+
+
+ul {
+  line-height: 1.5;
+        font-family: "Esteban", Georgia, "Times New Roman", serif;
+    font-size: 18px;
+      font-weight: 400;
+        list-style-type: none;
+        padding-left:0;
+
+
+
+}
+
+
+ul > li, li, ul li {
+  line-height: 1.8;
+        font-family: "Esteban", Georgia, "Times New Roman", serif;
+    font-size: 18px;
+      font-weight: 400;
+
 }
 
 a {
-  color: #404040;
+  color: #111111;
 }
 a:hover,
 a:focus {
@@ -49,8 +113,12 @@ a:focus {
 }
 a img:hover,
 a img:focus {
-  cursor: zoom-in;
+  cursor: pointer;
 }
+
+img.profile {margin-left: auto; margin-right:auto; width: 80%;}
+
+
 blockquote {
   color: #808080;
   font-style: italic;
@@ -59,7 +127,7 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: white;
+  border-color: #111111;
 }
 .navbar-custom {
   background: white;
@@ -69,36 +137,35 @@ hr.small {
   width: 100%;
   z-index: 3;
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
+   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
-.navbar-custom .navbar-brand {
-  font-weight: 800;
-}
-.navbar-custom .nav li a {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
+
+.navbar-custom .nav li a,  .navbar-custom .navbar-brand {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+ text-transform: uppercase;
+ 
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background: transparent;
-    border-bottom: 1px solid transparent;
+    background: white;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: #111;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #555;
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #777;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #555;
   }
    .navbar-nav {float: right;}
 }
@@ -127,14 +194,14 @@ hr.small {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: #111111;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085a1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: #111111;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
@@ -150,34 +217,6 @@ hr.small {
   }
 }
 .intro-header {
-  background: no-repeat center center;
-  background-color: #808080;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  margin-bottom: 50px;
-}
-.intro-header .site-heading,
-.intro-header .post-heading,
-.intro-header .page-heading {
-  padding: 100px 0 50px;
-  color: white;
-}
-@media only screen and (min-width: 768px) {
-  .intro-header .site-heading,
-  .intro-header .post-heading,
-  .intro-header .page-heading {
-    padding: 150px 0;
-  }
-}
-.intro-header .site-heading,
-.intro-header .page-heading {
-  text-align: center;
-}
-.intro-header .site-heading h1,
-.intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 50px;  
   text-transform: uppercase;
@@ -224,10 +263,13 @@ hr.small {
 }
 .intro-header .post-heading .meta a {
   color: white;
+   margin: 0 0 40px;
+   padding: 20px 0;
+   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .post-preview > a {
-  color: #404040;
+  color: #111;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -236,63 +278,94 @@ hr.small {
 }
 .post-preview > a > .post-title {
   font-size: 20px;
+  font-size:20px;
   margin-top: 30px;
   margin-bottom: 10px;
+     font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .post-preview > a > .post-subtitle {
+ font-size:20px;
   margin: 0;
-  font-weight: 300;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
+  font-family: "Esteban", Georgia, "Times New Roman", serif;
+ 
 }
 .post-preview > .post-meta {
   color: #868e96;
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
+  text-align: left;
+   font-family: "Esteban", Georgia, "Times New Roman", serif;
 }
+.post-heading span.meta 
+{       font-family: "Esteban", Georgia, "Times New Roman", serif;
+  font-size: 20px;
+
+}
+
+
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: #111111;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
   color: #0085a1;
   text-decoration: underline;
 }
-@media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
-    font-size: 36px;
-  }
-}
+
 .section-heading {
-  font-size: 36px;
+  font-size: 20px;
   margin-top: 60px;
-  font-weight: 700;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 .caption {
   text-align: center;
-  font-size: 14px;
-  padding: 10px;
-  font-style: italic;
+  font-size: 16px;
+  padding: 15px;
   margin: 0;
   display: block;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+
 }
-footer {
-  padding: 50px 0 65px;
-}
-footer .list-inline {
-  margin: 0;
-  padding: 0;
-}
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    position: absolute;
+ padding-top:50px;
+  }
+
+footer .col-lg-12{padding-left:0; padding-right:0;}
+
+  footer .list-inline {
+    margin-bottom:10px;
+padding-bottom:10px;
+    color:#111;
+    float: left;
+  }
+
+
 footer .copyright {
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 0;
+  font-size: 18px;
+float: right;
+  margin-bottom: 10px ;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  color:#111;
+  font-weight:400;
 }
+
+footer .copyright-small {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px ;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  color:#111;
+}
+
 .floating-label-form-group {
-  font-size: 14px;
+  font-size: 20px;
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
@@ -306,7 +379,7 @@ footer .copyright {
   padding-left: 0;
   border: none;
   border-radius: 0;
-  font-size: 1.5em;
+  font-size: 20px;
   background: none;
   box-shadow: none !important;
   resize: none;
@@ -317,7 +390,7 @@ footer .copyright {
   position: relative;
   top: 2em;
   margin: 0;
-  font-size: 0.85em;
+  font-size: 20px;
   line-height: 1.764705882em;
   vertical-align: middle;
   vertical-align: baseline;
@@ -343,15 +416,23 @@ form .row:first-child .floating-label-form-group {
 }
 .btn {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
+
+.floating-label-form-group label {
+    font-family: 'Montserrat',  Helvetica, Arial, sans-serif;
+  font-size: 20px;
+
+}
+.btn, .btn-primary {
+   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 1px;
-  border-radius: 0;
-  padding: 15px 25px;
+  border-radius: 4;
+  padding: 10px 20px;
 }
 .btn-lg {
-  font-size: 16px;
+  font-size: 18px;
   padding: 25px 35px;
 }
 .btn-default:hover,
@@ -361,14 +442,15 @@ form .row:first-child .floating-label-form-group {
   color: white;
 }
 .pager {
-  margin: 20px 0 0;
+  margin: 20px 0 30px;
 }
 .pager li > a,
 .pager li > span {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 1px;
   padding: 10px 5px;
   background-color: white;
@@ -392,7 +474,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #808080;
-  background-color: #404040;
+  background-color: #111111;
   cursor: not-allowed;
 }
 ::-moz-selection {
@@ -442,18 +524,276 @@ body {
   display: inline-block;
   font-family: 'glyphterregular';
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1;
-  color:#fff;
+  color:#111;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.portfolio-item {
-    margin-bottom: 25px;
+.portfolio-item
+
+{
+margin-top: 10px;
+
+
 }
 
-  .portfolio-item > h3 {
+
+
+
+.portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.portfolio-link >  a, a:active, a:active, a:focus, a:hover {
+    color: #111;
+    outline: 0;
+}
+
+.portfolio-item .portfolio-link .caption {
+    background: #111;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+ .portfolio-item .portfolio-link .caption:hover {
+  opacity: .9;
+}
+
+
+
+.portfolio-item .portfolio-link .caption .caption-content {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    top: 30%;
+    margin-top: -10px;
+    color: #fff;
+
+}
+
+ .portfolio-item .caption .caption-content > h3 {
     font-size: 20px;
+        font-family: "Montserrat", Helvetica, Arial, sans-serif;
   }
+  .portfolio-item .caption .caption-content > p {
+    margin-top: 10px;
+          font-family: "Esteban", Georgia, "Times New Roman", serif;
+        font-size: 16px;
+
+  }
+
+
+.label .label-default {
+font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+.label {
+margin-right: 5px;
+font-family: "Montserrat", Helvetica, Arial, sans-serif;
+
+}
+.filters {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+@media (min-width: 768px){.filters {
+
+  margin-left:50px; margin-right:50px;
+}}
+
+.filters * {
+  display: inline-block;
+}
+
+.filters label {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.25rem;
+  min-width: 50px;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.1s;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+ font-weight:400;
+
+}
+
+.filters label:hover {
+  background: #111;
+  color: white;
+}
+
+
+
+
+.text-white {
+  color: #ffffff;
+}
+
+.list-group {
+  padding-left: 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.list-group-item {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+
+ .skillset .item {
+  margin-bottom: 15px;
+   overflow: hidden;
+}
+
+
+@media only screen and (min-width: 768px){
+  .skillset .level-title
+   {
+    display: inline-block;
+    float: left;
+    width: 30%;
+  margin-bottom: 0;}
+
+  .skillset .level-bar {
+   height: 20px;
+   background: #f5f5f5;
+    display: inline-block;
+    width: 70%;
+ }
+}
+
+.skillset {margin-top: 15px;}
+
+ .skillset .level-title  {
+  color: #111111;
+  font-size: 18px;
+  
+   margin-top: 0;
+}
+
+
+
+ .skillset .level-bar-inner {
+  height: 20px;
+  background: #337ab7;
+}
+
+.skillset > h2  {
+  margin: 40px 0 30px;
+  color: #111;
+}
+
+.intro-header {
+  margin: 50px 0 20px;
+  position: relative;
+  padding-bottom:20px;
+}
+
+
+ .intro-header .page-heading h1{
+    padding-top: 50px;
+      font-size: 50px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+
+}
+
+
+
+.intro-header .site-heading h1,
+ .intro-header .post-heading h1 {
+  padding-top: 20px;
+  font-size: 50px;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+
+}
+
+.intro-header .site-heading .site-subheading,
+.intro-header .page-heading .page-subheading,
+.intro-header .post-heading .post-subheading {
+  display: block;
+  margin: 10px 0 0;
+ font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+}
+.intro-header .post-heading .post-subheading {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.dev-icons {
+    font-size: 5.5rem;
+
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+
+
+
+
+[value="All"]:checked ~ .filters [for="All"],
+[value="Frontend"]:checked ~ .filters [for="Frontend"],
+[value="Project"]:checked ~ .filters [for="Project"],
+
+[value="Marketing"]:checked ~ .filters [for="Marketing"],
+[value="Design"]:checked ~ .filters [for="Design"],
+[value="IA"]:checked ~ .filters [for="IA"],
+[value="Test"]:checked ~ .filters [for="Test"] {
+  background: black;
+  color: white;
+}
+
+[value="All"]:checked ~ .portfolio [data-category] {
+  display: block;
+}
+
+[value="Frontend"]:checked ~ .portfolio .portfolio-item:not([data-category~="Frontend"]),
+[value="Project"]:checked ~ .portfolio .portfolio-item:not([data-category~="Project"]),
+[value="Marketing"]:checked ~ .portfolio .portfolio-item:not([data-category~="Marketing"]),
+[value="Design"]:checked ~ .portfolio .portfolio-item:not([data-category~="Design"]),
+
+[value="IA"]:checked ~ .portfolio .portfolio-item:not([data-category~="IA"]),
+[value="Test"]:checked ~ .portfolio .portfolio-item:not([data-category~="Test"])
+ {
+  display: none;
+}
+
+
+input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+

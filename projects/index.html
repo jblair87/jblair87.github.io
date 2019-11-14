@@ -1,0 +1,25 @@
+---
+layout: page
+title: Projects
+header-img: "img/home-bg.png"
+---
+<!-- Projects Row -->
+
+
+
+
+
+      {% for project in site.projects %}
+      <div class="col-sm-4 portfolio-item">
+          <a href="#{{ project.modalID }}" class="portfolio-link" data-toggle="modal">
+              <div class="caption">
+                  <div class="caption-content">
+                      <h3>{{ project.title }}</h3>
+                      <h5>{{ project.category }}</h5>
+                  </div>
+
+              </div>
+              <img src="{{ project.img }}" class="img-responsive" alt="">
+          </a>
+      </div>
+     {% endfor %}

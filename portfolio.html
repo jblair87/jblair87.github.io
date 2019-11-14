@@ -5,72 +5,195 @@ header-img: "img/home-bg.png"
 ---
 <!-- Projects Row -->
 
-       <div class="row">
-           <div class="col-sm-4 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+
+  <input type="radio" id="All" name="categories" value="All" checked>
+    <input type="radio" id="Frontend" name="categories" value="Frontend">
+    <input type="radio" id="Marketing" name="categories" value="Marketing">
+    <input type="radio" id="Project" name="categories" value="Project">
+    <input type="radio" id="Design" name="categories" value="Design">
+    <input type="radio" id="IA" name="categories" value="IA">
+        <input type="radio" id="Test" name="categories" value="Test">
+
+    <ol class="filters">
+      <li>
+        <label for="All">All</label>
+      </li>
+      <li>
+        <label for="Frontend">Front-End Development</label>
+      </li>
+         <li>
+        <label for="Project">Project Management</label>
+      </li>
+        <li>
+        <label for="Marketing">Marketing</label>
+      </li>
+    
+           <li>
+        <label for="Design">Interaction Design</label>
+      </li>
+         <li>
+        <label for="IA">Information Architecture</label>
+      </li>
+            <li>
+        <label for="Test">Usability Testing</label>
+      </li>
+   <!--
+      <li>
+        <label for="Magento">Magento</label>
+      </li>
+      <li>
+        <label for="WordPress">WordPress</label>
+      </li>
+          <li>
+        <label for="HTML">HTML</label>
+      </li>    <li>
+        <label for="css">CSS</label>
+      </li>
+        <li>
+        <label for="bootstrap">Bootstrap</label>
+      </li>
+
+        <li>
+        <label for="PHP">PHP</label>
+      </li>
+    
+          <li>
+        <label for="Jquery">jQuery</label>
+      </li>-->
+    </ol>
+
+       <div class="row portfolio">
+        
+         <div class="col-sm-4 portfolio-item" data-category="Frontend Project IA Test">
+             <a href="https://www.murrayscheese.com" class="portfolio-link" data-toggle="modal">
+               <div class="caption">
+                <div class="caption-content">
+               <h3>Murray's Cheese</h3>
+              <!-- <p>Web Development</p><h5><span class="label label-default">Front-End Development</span><span class="label label-default">Web Development</span></h5>-->
+             </div>
+           </div>
+                   <img class="img-responsive" src="/img/murrays.png" alt="">
+            </a>
+
+          </div>
+           <div class="col-sm-4 portfolio-item" data-category="Frontend Marketing">
+             <a href="http://fiaf.org/" class="portfolio-link" data-toggle="modal">
+               <div class="caption">
+                <div class="caption-content">
+               <h3>French Institute Alliance Française</h3>
+              <!-- <p>Web Design & Development</p><h4><span class="label label-default">Web Development</span><span class="label label-default">Web Development</span></h4>-->
+             </div>
+           </div>
+                   <img class="img-responsive" src="/img/fiaf.png" alt="">
+            </a>
+
+          </div>
+
+           <div class="col-sm-4 portfolio-item" data-category="Content IA Design Test">
+             <a href="https://www.oppia.org/splash" class="portfolio-link" data-toggle="modal">
+               <div class="caption">
+                <div class="caption-content">
+               <h3>Oppia Foundation </h3>
+              <!-- <p>User Testing & Web Design</p><h4><span class="label label-default">Web Development</span><span class="label label-default">Web Development</span></h4>-->
+             </div>
+           </div>
+              <img class="img-responsive" src="/img/oppia.png" alt="">
+             </a>
+
+           </div>
+
+           <div class="col-sm-4 portfolio-item" data-category="Frontend Marketing">
+             <a href="https://crossingthelinefestival.org/2017/" class="portfolio-link" data-toggle="modal">
+               <div class="caption">
+                <div class="caption-content">
+               <h3>Crossing the Line Festival</h3>
+             <!--  <p>Web Design & Development</p><h4><span class="label label-default">Web Development</span><span class="label label-default">Web Development</span></h4>-->
+             </div>
+           </div>
+                   <img class="img-responsive" src="/img/ctl2017.png" alt="">
+            </a>
+
+           </div>
+
+
+           <div class="col-sm-4 portfolio-item" data-category="Frontend Marketing">
+             <a href="http://tiltkidsfestival.org/" class="portfolio-link" data-toggle="modal">
+               <div class="caption">
+                <div class="caption-content">
+               <h3>TILT Kids Festival</h3>
+             <!--  <p>Web Design & Development</p><h4><span class="label label-default">Web Development</span><span class="label label-default">Web Development</span></h4>-->
+             </div>
+           </div>
+                   <img class="img-responsive" src="/img/tilt.png" alt="">
                </a>
 
            </div>
-           <div class="col-sm-4 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+
+
+           <div class="col-sm-4 portfolio-item" data-category="Frontend Marketing">
+             <a href="http://bastilledayny.org/" class="portfolio-link" data-toggle="modal">
+               <div class="caption">
+                <div class="caption-content">
+               <h3>Bastille Day on 60th</h3>
+             </div>
+           </div>
+                   <img class="img-responsive" src="/img/bastile.png" alt="">
                </a>
 
            </div>
-           <div class="col-sm-4 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+
+           <div class="col-sm-4 portfolio-item" data-category="Frontend Marketing">
+             <a href="https://crossingthelinefestival.org/2016/" class="portfolio-link" data-toggle="modal">
+               <div class="caption">
+                <div class="caption-content">
+               <h3>Crossing the Line Festival</h3>
+             </div>
+           </div>
+                   <img class="img-responsive" src="/img/ctl2016.png" alt="">
+               </a>
+
+           </div>
+
+           <div class="col-sm-4 portfolio-item" data-category="Frontend Project IA Test Marketing">
+             <a href="#{{ project.modalID }}" class="portfolio-link" data-toggle="modal">
+               <div class="caption">
+                <div class="caption-content">
+          <h3>  Vedere</h3>
+             </div>
+           </div>
+                   <img class="img-responsive" src="/img/vedere.png" alt="">
                </a>
 
            </div>
        </div>
-       <!-- /.row -->
+
+
+       <!--<div class="portfolio-modal modal fade" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
+           <div class="modal-content">
+
+             <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+       </div>
+                           <div class="modal-body">
+                               <h2>French Institute Alliance Française</h2>
+                               <hr class="star-primary">
+                               <img src="http://jblair87.github.io/img/portfolio-fiaf.png" class="img-responsive img-centered" alt="">
+
+
+                               <ul class="list-inline item-details">
+                                   <li>Category:
+                                       <strong>Front-End Development, Responsive Web Design
+                                           </strong>
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>-->
+
+
 
        <!-- Projects Row -->
-       <div class="row">
-           <div class="col-sm-4 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-               </a>
 
-           </div>
-           <div class="col-sm-4 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-               </a>
-
-           </div>
-           <div class="col-sm-4 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-               </a>
-
-           </div>
-       </div>
-
-
-       <!-- Projects Row -->
-       <div class="row">
-           <div class="col-sm-4 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-               </a>
-
-           </div>
-           <div class="col-sm-4 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-               </a>
-
-           </div>
-           <div class="col-sm-4 portfolio-item">
-               <a href="#">
-                   <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-               </a>
-
-           </div>
-       </div>
        <!-- /.row -->
 
        <!-- Projects Row -->
