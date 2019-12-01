@@ -597,12 +597,12 @@ margin-top: 10px;
 
 
 .label .label-default {
-font-family: "Montserrat", Helvetica, Arial, sans-serif;
+          font-family: "Esteban", Georgia, "Times New Roman", serif;
 }
 
 .label {
 margin-right: 5px;
-font-family: "Montserrat", Helvetica, Arial, sans-serif;
+          font-family: "Esteban", Georgia, "Times New Roman", serif;
 
 }
 .filters {
@@ -627,7 +627,7 @@ font-family: "Montserrat", Helvetica, Arial, sans-serif;
   line-height: normal;
   cursor: pointer;
   transition: all 0.1s;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+          font-family: "Esteban", Georgia, "Times New Roman", serif;
  font-weight:400;
 
 }
@@ -651,7 +651,7 @@ font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .list-group-item {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+          font-family: "Esteban", Georgia, "Times New Roman", serif;
 }
 
 
