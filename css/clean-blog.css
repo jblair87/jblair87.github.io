@@ -804,3 +804,9 @@ input[type="radio"] {
  font-size: 20px;
  text-align: center;
 }
+
+.skills-list:after {
+    content: "";
+    clear: both;
+    display: table;
+}
