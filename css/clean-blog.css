@@ -25,6 +25,8 @@ body {
   line-height: 1.5;
   color: #111;
 }
+wrapper {margin: 0 auto;
+ padding: 0 30px;}
 
 p {margin-bottom: 1.25em; font-size:18px;}
 
@@ -69,7 +71,6 @@ h1{
 h2 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  letter-spacing: -0.05em;
   font-weight: 700;
    
  font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -250,15 +251,14 @@ hr.small {
 }
 .intro-header .post-heading .subheading {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    letter-spacing: -0.05em;
   font-size: 20px;
   margin: 10px 0 30px;
   font-weight: 700;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
 }
 .intro-header .post-heading .meta a {
@@ -281,7 +281,7 @@ hr.small {
   font-size:20px;
   margin-top: 30px;
   margin-bottom: 10px;
-     font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Esteban", Georgia, "Times New Roman", serif;
 }
 .post-preview > a > .post-subtitle {
  font-size:20px;
