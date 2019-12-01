@@ -91,9 +91,6 @@ ul {
       font-weight: 400;
         list-style-type: none;
         padding-left:0;
-
-
-
 }
 
 
@@ -796,4 +793,14 @@ input[type="radio"] {
   left: -9999px;
 }
 
-
+.skills-list {
+ float: left;
+ width: 30.33333%;
+ padding: 15px 0;
+ margin: 0 1.5%;
+}
+.skills-list li {
+ font-family: "Esteban", Georgia, "Times New Roman", serif;
+ font-size: 20px;
+ text-align: center;
+}
