@@ -154,7 +154,7 @@ hr.small {
 .navbar-custom ul li {
   display: inline-block;
   text-align: center;
-  width: 110px;
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -163,7 +163,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand {
     color: #111;
-    padding: 20px;
+    
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
