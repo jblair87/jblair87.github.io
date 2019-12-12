@@ -139,7 +139,7 @@ hr.small {
 }
 
 
-.navbar-custom li a {
+.navbar-custom .nav li a {
   
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -151,11 +151,24 @@ hr.small {
   background-repeat: repeat-x;
 }
 
-.navbar-custom ul li {
+.navbar-custom .nav ul li {
   display: inline-block;
   text-align: center;
   
 }
+
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    float: left;
+  }
+  .navbar-custom {
+    float: right;
+  }
+}
+
+
+
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
