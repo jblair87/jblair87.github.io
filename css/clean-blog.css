@@ -482,14 +482,14 @@ form .row:first-child .floating-label-form-group {
   .pager li > a,
   .pager li > span {
     font-size: 14px;
-    padding: 15px 25px;
+    padding: 25px;
   }
 }
 .pager li > a:hover,
 .pager li > a:focus {
-  color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  color: black;
+
+
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
